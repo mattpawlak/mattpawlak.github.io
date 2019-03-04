@@ -6,6 +6,9 @@
   .wrap{
     height: auto;
   }
+  .videopopupjs__content{
+    height: 300px;
+  }
   .slider-belt .slider-units {
     width: 100%; }
   .main-nav li:hover {
