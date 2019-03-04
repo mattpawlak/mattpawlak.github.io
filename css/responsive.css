@@ -3,6 +3,9 @@
     display: none; } }
 
 @media screen and (max-width: 768px) {
+  .wrap{
+    height: auto;
+  }
   .slider-belt .slider-units {
     width: 100%; }
   .main-nav li:hover {
@@ -15,6 +18,7 @@
       text-align: center; }
       footer #map{
         margin: auto;
+        margin-bottom: 50px;
       }
     footer .col-30 {
       width: 100%; }
@@ -22,7 +26,10 @@
       width: 100%; }
       footer .col-70 .container {
         width: 50%;
-        margin-bottom: 30px; } }
+        margin-bottom: 30px; }
+      .width-200{
+        width: 200%;
+        } }
 
 @media screen and (max-width: 600px) {
   .navbar .main-menu a {

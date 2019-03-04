@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	slider();
+	$("#video").videoPopup();
 });
 
 /* Slider */
@@ -42,9 +43,6 @@ navBarToggle.addEventListener("click", function() {
 	}
 });
 
-
-
-$("#video").videoPopup();
 
 var $first = $('li:first', 'ul'),
       $last = $('li:last', 'ul');
