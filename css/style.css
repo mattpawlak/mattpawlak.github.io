@@ -331,8 +331,9 @@ Slider
 ******************************************************************************/
 .contact {
   background-color: #f5f8fa;
-  height: 100%;
-  width: 100%; }
+  height: auto;
+  width: 100%;
+  padding-bottom: 50px;}
   .contact .wrap {
     width: 50%; }
   .contact .col-6-left {
