@@ -7,7 +7,7 @@
     height: auto;
   }
   .videopopupjs__content{
-    height: 300px;
+    height: 300px!important;
   }
   .slider-belt .slider-units {
     width: 100%; }
