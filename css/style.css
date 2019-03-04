@@ -411,6 +411,17 @@ footer {
     filter: grayscale(100%); }
   footer .row .container {
     width: 20%; }
+#map{
+  border-radius: 500px;
+  height: 200px;
+  width: 200px;
+  filter: grayscale(100%);
+}
+
+#map .gm-fullscreen-control,
+#map .gmnoprint{
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .navbar {

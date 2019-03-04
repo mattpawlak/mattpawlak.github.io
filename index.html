@@ -16,23 +16,6 @@
   <!--endbuild-->
 </head>
 
-<!--<header id="navigation" class="navbar">
-  <div class="wrap">
-    <div class="brand">
-      <a href="index.php"><img src="images/logo.png" alt=""></a>
-    </div>
-    <ul class="main-menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-      </li>
-    </ul>
-  </div>
-</header>-->
-
 <nav class="navbar">
   <div class="wrap">
     <span class="navbar-toggle" id="js-navbar-toggle">
@@ -279,9 +262,7 @@
           61-719 Poznań <br />
           tel. 61 27 11 000</p>
         </p>
-        <div class="">
-          <iframe src="https://www.google.com/maps/d/embed?mid=1ks99VIKfQZ5BxcbD0EWDoDBIr1rsKGbz&hl=pl" height="200"></iframe>
-        </div>
+        <div id="map"></div>
       </div>
       <div class="col-70">
         <div class="row">
@@ -327,9 +308,9 @@
   </footer>
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/video.popup.js">
-
-  </script>
+  <script type="text/javascript" src="js/video.popup.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqS7g18lw6eaQrCmHngAakj0z1MCwe4dw&callback=initMap">
+   </script>
   <!--Custom JS-->
   <!--build:js js/main.min.js -->
   <script src="js/global.js"></script>

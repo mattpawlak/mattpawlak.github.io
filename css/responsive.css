@@ -10,7 +10,19 @@
   .hide-on-mobile {
     display: none; }
   .contact .wrap {
-    width: 90%; } }
+    width: 90%; }
+    footer {
+      text-align: center; }
+      footer #map{
+        margin: auto;
+      }
+    footer .col-30 {
+      width: 100%; }
+    footer .col-70 {
+      width: 100%; }
+      footer .col-70 .container {
+        width: 50%;
+        margin-bottom: 30px; } }
 
 @media screen and (max-width: 600px) {
   .navbar .main-menu a {
@@ -31,25 +43,14 @@
   .wrap {
     height: auto; }
     .wrap p {
-      margin: 15px 0; } }
+      margin: 15px 0; }
+ }
 
 @media screen and (max-width: 500px) {
   section h1 {
     font-size: 30px; }
   section p {
     font-size: 14px; }
-  footer {
-    text-align: center; }
-    footer .col-30 {
-      width: 100%; }
-      footer .col-30 iframe {
-        height: 400px;
-        margin-bottom: 30px; }
-    footer .col-70 {
-      width: 100%; }
-      footer .col-70 .container {
-        width: 50%;
-        margin-bottom: 30px; }
   .slider-belt .slider-units .slider-unit .slider-unit-color .slider-content-area .slider-content h1 {
     font-size: 25px; }
   .button {
